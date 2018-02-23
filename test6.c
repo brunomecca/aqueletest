@@ -3,6 +3,7 @@ int teste3 = 0;
 void aa(){
 
 }
+int hello = 10;
 #endif
 
 #ifdef BBB
