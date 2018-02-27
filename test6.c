@@ -28,4 +28,8 @@ int cx(){
 
 int main(){
 	bb();
+	testeTrueTrue = testeTrueTrue2;
 }
+
+int testeTrueTrue = 10;
+int testeTrueTrue2 = testeTrueTrue;
