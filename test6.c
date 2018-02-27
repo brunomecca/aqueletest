@@ -7,7 +7,7 @@ int hello = 10;
 #endif
 
 #ifdef BBB
-int ko = cx();
+int ko = 104;
 int aaacx = 30;
 #endif
 
