@@ -7,7 +7,7 @@ int hello = 10;
 #endif
 
 #ifdef BBB
-int ko = teste3;
+int ko = cx();
 int aaacx = 30;
 #endif
 
@@ -28,5 +28,4 @@ int cx(){
 
 int main(){
 	bb();
-	ko = cx();
 }
