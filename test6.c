@@ -14,17 +14,18 @@ int aaacx = 30;
 #endif
 
 #ifdef CCC
-void bb(){
+int bb(){
 	aa();
 	teste3 = 30;
 	ko = 30 + aaacx;
 	int lop = 1;
+	return lop;
 }
 #endif
 
 #ifdef FUNC
 int cx(){
-	ko = 100;
+	ko = 100 + bb();
 	return 15;
 }
 #endif
