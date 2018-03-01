@@ -32,7 +32,7 @@ int cx(){
 int main(){
 	bb();
 	testeTrueTrue = testeTrueTrue2;
-	char dd = 'dx';
+	char dd = 'd';
 }
 
 int testeTrueTrue = 10;
