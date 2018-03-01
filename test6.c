@@ -1,7 +1,9 @@
 #ifdef AAA
 int teste3 = 0;
 void aa(){
-
+	int b = 30;
+	int xxaa = 100;
+	char o = 'b';
 }
 int hello = 10;
 #endif
@@ -16,6 +18,7 @@ void bb(){
 	aa();
 	teste3 = 30;
 	ko = 30 + aaacx;
+	int lop = 1;
 }
 #endif
 
@@ -29,6 +32,7 @@ int cx(){
 int main(){
 	bb();
 	testeTrueTrue = testeTrueTrue2;
+	char dd = 'dx';
 }
 
 int testeTrueTrue = 10;
