@@ -13,7 +13,7 @@ int ko = 104;
 int aaacx = 30;
 #endif
 
-int bb ((int));
+int bb (int);
 
 #ifdef CCC
 int bb(int xc){
@@ -27,7 +27,7 @@ int bb(int xc){
 
 #ifdef FUNC
 int cx(){
-	ko = 100 + bb();
+	ko = 100 + bb(20);
 	return 15;
 }
 #endif
