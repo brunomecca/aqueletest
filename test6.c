@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include "ae.h"
+#include "lib/ae.h"
+#include "ae/ae2/jo.h"
 
 #ifdef AAA
 int teste3 = 0;
