@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include "ae.h"
+
 #ifdef AAA
 int teste3 = 0;
 void aa(){
@@ -8,7 +11,7 @@ void aa(){
 int hello = 10;
 #endif
 
-#ifdef BBB
+#ifdef BBB	
 int ko = 104;
 int aaacx = 30;
 #endif
