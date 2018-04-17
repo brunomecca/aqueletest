@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "lib/ae.h"
 #include "ae/ae2/jo.h"
 
