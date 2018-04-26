@@ -5,6 +5,7 @@
 int teste3 = 0;
 
 int alo = 10;
+
 void aa(){
 	int b = 30;
 	int xxaa = 100;
