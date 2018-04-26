@@ -23,8 +23,6 @@ int bb (int);
 int bb(int xc){
 	alo = 10 + 10;
 	aa();
-	teste3 = 30;
-	ko = 30 + aaacx;
 	int lop = 1;
 	return lop;
 }
