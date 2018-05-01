@@ -23,7 +23,7 @@ int bb (int);
 
 #ifdef CCC
 int bb(int xc){
-	alo = 10 + 10;
+	alo = 10 + xc;
 	aa();
 	int lop = 1;
 	return lop;
@@ -53,6 +53,8 @@ int main(){
 	bb(20);
 	testeTrueTrue = testeTrueTrue2;
 	char dd = 'd';
+	int zz = 10;
+	bb(zz);
 }
 
 int testeTrueTrue = 10;
