@@ -54,7 +54,7 @@ int main(){
 	testeTrueTrue = testeTrueTrue2;
 	char dd = 'd';
 	int zz = 10;
-	bb(zz);
+	bb(testeTrueTrue);
 }
 
 int testeTrueTrue = 10;
