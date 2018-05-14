@@ -62,7 +62,7 @@ int main(){
 	char dd = 'd';
 	int zz = 10;
 	bb(testeTrueTrue);
-	insidef(az());
+	bb(insidef(10));
 }
 
 int testeTrueTrue = 10;
