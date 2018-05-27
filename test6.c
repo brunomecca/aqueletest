@@ -64,4 +64,4 @@ int main(){
 
 int testeTrueTrue = 10;
 int testeTrueTrue2 = testeTrueTrue;
-int testeHello = hello;
+int testeHello = hello + testeTrueTrue + testeTrueTrue2;
