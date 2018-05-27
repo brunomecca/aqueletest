@@ -26,5 +26,5 @@ int arguTest(int a){
 }
 
 int main(){
-	int teste = arguTest(arguTest(aa()));
+	testeA = arguTest(arguTest(aa()));
 }
