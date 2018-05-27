@@ -1,6 +1,3 @@
-#define AA
-#define BB
-
 #ifdef AA
 int testeA = 10;
 
