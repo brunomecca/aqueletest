@@ -9,8 +9,6 @@ int testeB;
 int testeB2 = 10;
 #endif
 
-int test = 10;
-
 int bb(){
 	return testeA;
 }
@@ -28,22 +26,5 @@ int arguTest(int a){
 }
 
 int main(){
-	testeA = aa();
-	testeB = bb();
-	testeA = aaTogether();
-
-	testeB2 = aaTogether() +  test;
-	testeB2 = aaTogether() + aa();
-
-	testeB2 = arguTest(10);
-
-	int local = 10;
-	int local2 = 10;
-	testeB2 = arguTest(local);
-
-	testeB2 = arguTest(local + local2);
-
-	testeB2 = local + local2 + arguTest(20);
-
-	testeB2 = local + local2 + arguTest(local) + arguTest(local2);
+	int teste = arguTest(arguTest(aa()));
 }
