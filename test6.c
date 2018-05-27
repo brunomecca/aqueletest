@@ -60,8 +60,10 @@ int main(){
 	int zz = 10;
 	bb(testeTrueTrue);
 	bb(insidef(10));
+
+	return 0;
 }
 
 int testeTrueTrue = 10;
-int testeTrueTrue2 = testeTrueTrue;
-int testeHello = hello + testeTrueTrue + testeTrueTrue2;
+int testeTrueTrue2 = 10;
+int testeHello = 10;
