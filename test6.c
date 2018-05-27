@@ -1,14 +1,13 @@
-#define A
-#define B
-#define C
+#define AA
+#define BB
 
-#ifdef A
+#ifdef AA
 int testeA = 10;
 
 int testeA2;
 #endif
 
-#ifdef B
+#ifdef BB
 int testeB;
 int testeB2 = 10;
 #endif
