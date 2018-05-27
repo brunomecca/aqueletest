@@ -1,69 +1,33 @@
-#ifdef AAA
-int teste3 = 0;
+#define A
+#define B
+#define C
 
-int alo = 10;
+#ifdef A
+int testeA = 10;
 
-void aa(){
-	int b = 30;
-	int xxaa = 100;
-	char o = 'b';
-}
-int hello = 10;
+int testeA2;
 #endif
 
-#ifdef BBB	
-int ko = 104;
-int aaacx = 30;
-#endif
-
-int bb (int);
-
-#ifdef CCC
-int bb(int xc){
-	alo = 10 + xc;
-	aa();
-	int lop = 1;
-	return lop;
-}
-#endif
-
-#ifdef FUNC
-int cx(){
-	alo = alo + 11;
-	ko = 100 + bb(20);
-	teste3 = 1;
-	return 15;
-}
-#endif
-
-#ifdef JZ
-int az(){
-	alo = 10;
-	teste3 = 1;
-	testeTrueTrue = 111;
-	return 10;
-}
-#endif
-
-#ifdef INSIDEF
-int insidef(int x){
-	x = x + 30 + 10;
-	return x;
-}
+#ifdef B
+int testeB;
+int testeB2 = 10;
 #endif
 
 int main(){
-	teste3 = alo + 10;
-	bb(20);
-	testeTrueTrue = testeTrueTrue2;
-	char dd = 'd';
-	int zz = 10;
-	bb(testeTrueTrue);
-	bb(insidef(10));
+
+	testeB = 10;
+
+	testeA2 = testeB + 10;
+
+	testeA = 10 + 10;
+
+	testeA = testeB + testeB2 + testeA;
+
+	int testeLocal = 20;
+
+	testeLocal = testeB + testeB2 + testeA;
+
+	testeA = testeA2 + testeB + testeLocal;
 
 	return 0;
 }
-
-int testeTrueTrue = 10;
-int testeTrueTrue2 = 10;
-int testeHello = 10;
