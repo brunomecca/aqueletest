@@ -9,10 +9,6 @@ int testeB;
 int testeB2 = 10;
 #endif
 
-int bb(){
-	return testeA;
-}
-
 int aa(){
 	return 10;
 }
@@ -26,5 +22,5 @@ int arguTest(int a){
 }
 
 int main(){
-	testeA = arguTest(arguTest(aa()));
+	testeA = testeB2;
 }
