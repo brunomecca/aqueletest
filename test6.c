@@ -22,5 +22,8 @@ int arguTest(int a){
 }
 
 int main(){
-	testeA = testeB2;
+	int k, z, x, c;
+	k = z = x = c = 1;
+	testeB = 1;
+	testeA = (testeB2 * 10 + (k*z + (x-c)))/testeB;
 }
