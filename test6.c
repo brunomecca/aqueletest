@@ -25,5 +25,5 @@ int main(){
 	int k, z, x, c;
 	k = z = x = c = 1;
 	testeB = 1;
-	testeA = (testeB2 * 10 + (k*z + (x-c)))/testeB;
+	testeA = (testeB2 * 10 + (k*z + (x-c)))/testeB + aaTogether() + aa(arguTest(10));
 }
