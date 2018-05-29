@@ -6,7 +6,7 @@ int testeA2;
 
 #ifdef BB
 int testeB;
-int testeB2 = 10;
+int testeB2 = testeA;
 #endif
 
 int aa(){
@@ -23,6 +23,7 @@ int arguTest(int a){
 
 int main(){
 	int k, z, x, c, a, b, j, d;
+	aa(arguTest());
 	k = z = x = c = a = b = j = d = 1;
 	testeB = 1;
 	testeA = (testeB2 * 10 + (k*z + (x-c)))/testeB + aa(arguTest(aaTogether(aa(b)) + d) + b + d) + b + j + arguTest(10) + d;
