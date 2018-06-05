@@ -60,11 +60,11 @@ int x;
 #endif
 
 int foo(){
+	#ifdef C_REAL
+	int a_inside = 10;
+	#endif
 	#ifdef B_REAL
-	x = a;
+	x = a_inside;
 	#endif
 }
 
-#ifdef C_REAL
-int a = 10;
-#endif
