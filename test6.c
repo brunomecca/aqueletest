@@ -1,5 +1,5 @@
 #ifdef AA
-int a = 100;
+int areal = 100;
 int a2 = 100;
 int aa(){
 	return b;
@@ -45,9 +45,9 @@ int main(){
 	#endif
 
 	cc(bb());
-	int zz = a + a2;
+	int zz = areal + a2;
 	a2 = aa() + bb() + cc(b2);
-	b2 = a;
+	b2 = areal;
 	aa();
 	zz = cc(20);
 	return 0;
@@ -60,11 +60,11 @@ int x;
 #endif
 
 int foo(){
-	#ifdef C_REAL
-	int a = 10;
-	#endif
-
 	#ifdef B_REAL
 	x = a;
 	#endif
 }
+
+#ifdef C_REAL
+int a = 10;
+#endif
