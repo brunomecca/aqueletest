@@ -29,7 +29,7 @@ int x;
 #endif
 
 int main(){
-	#ifdef INSIDE
+	#ifdef INSIDEMAIN
 	y = x;
 	#endif
 	
