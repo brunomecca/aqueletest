@@ -25,7 +25,7 @@ int y;
 #endif
 
 #ifdef X
-int x;
+int k;
 #endif
 
 int main(){
@@ -37,11 +37,11 @@ int main(){
 	
 	#ifdef INSIDE2
 	int y2;
-	y2 = x;
+	y2 = k;
 	#endif
 
 	#ifdef B
-	x++;
+	k++;
 	#endif
 
 	cc(bb());
@@ -53,4 +53,18 @@ int main(){
 	return 0;
 
 	return 0;
+}
+
+#ifdef A_REAL
+int x;
+#endif
+
+int foo(){
+	#ifdef C_REAL
+	int a = 10;
+	#endif
+
+	#ifdef B_REAL
+	x = a;
+	#endif
 }
