@@ -30,7 +30,9 @@ int x;
 
 int main(){
 	#ifdef INSIDEMAIN
+	#ifdef INSIDEMAIN2
 	y = a2;
+	#endif
 	#endif
 	
 	#ifdef INSIDE2
