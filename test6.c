@@ -21,7 +21,7 @@ int cc(int a){
 #endif
 
 #ifdef INSIDE
-int y;
+int *y;
 #endif
 
 #ifdef X
