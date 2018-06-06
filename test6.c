@@ -43,7 +43,7 @@ int main(){
 	#ifdef B
 	k++;
 	#endif
-
+	aa();
 	cc(bb());
 	int zz = areal + a2;
 	a2 = aa() + bb() + cc(b2);
