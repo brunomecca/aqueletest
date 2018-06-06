@@ -26,6 +26,7 @@ int *y;
 
 #ifdef X
 int k;
+int vetor[10];
 #endif
 
 int main(){
@@ -34,7 +35,7 @@ int main(){
 	y = a2;
 	#endif
 	#endif
-	
+	vetor[1] = 01;
 	#ifdef INSIDE2
 	int y2;
 	y2 = k;
@@ -43,7 +44,7 @@ int main(){
 	#ifdef B
 	k++;
 	#endif
-	aa();
+
 	cc(bb());
 	int zz = areal + a2;
 	a2 = aa() + bb() + cc(b2);
