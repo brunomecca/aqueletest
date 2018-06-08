@@ -65,7 +65,8 @@ int foo(){
 	int a_inside = 10;
 	#endif
 	#ifdef B_REAL
-	x = a_inside;
+	x = 10;
+	a_inside = x;
 	#endif
 }
 
